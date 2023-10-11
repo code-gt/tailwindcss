@@ -26,6 +26,7 @@ Accédez au répertoire de votre projet dans le terminal. Vous pouvez utiliser l
 ```bash
 cd chemin/vers/votre/projet
 ```
+Ou ouvrez votre projet sur VS Code et utilisez le terminal inclus.
 
 Ensuite, initialisez votre projet en exécutant la commande suivante :
 
@@ -51,11 +52,11 @@ Générez un fichier de configuration Tailwind CSS en exécutant la commande sui
 npx tailwindcss init
 ```
 
-Cela créera un fichier **`tailwind.config.js`** à la racine de votre projet, que vous pourrez personnaliser pour ajuster les paramètres de Tailwind CSS selon vos besoins.
+Cela créera un fichier **`tailwind.config.js`** à la racine de votre projet, que vous pourrez personnaliser pour ajuster les paramètres de Tailwind CSS selon vos besoins. Ajouter votre futur fichier "./index.html" à la section content pour test.
 
 ## **Étape 6 : Création d'un Fichier CSS**
 
-Créez un fichier CSS où vous importerez les styles de Tailwind CSS. Par exemple, vous pouvez créer un fichier **`styles.css`**.
+Créez un fichier CSS où vous importerez les styles de Tailwind CSS. Par exemple, vous pouvez créer un fichier **`style.css`**.
 
 Dans ce fichier, ajoutez l'instruction d'importation pour les styles Tailwind CSS :
 
@@ -73,7 +74,7 @@ Supposons que vous utilisez la ligne de commande. Créez une commande npm dans v
 
 ```json
 "scripts": {
-  "build:css": "tailwindcss build styles.css -o output.css"
+  "build:css": "tailwindcss build -i style.css -o output.css"
 }
 ```
 
