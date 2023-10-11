@@ -84,6 +84,13 @@ Exécutez ensuite la commande suivante pour compiler vos styles :
 npm run build:css
 ```
 
+En cas de soucis de type 4cannot find module', vous pouvez réinstaller les dépendances :
+
+```bash
+rm -rf node_modules
+npm install
+```
+
 ## **Étape 8 : Intégration dans votre HTML**
 
 Dans votre fichier HTML, liez le fichier CSS que vous avez compilé à votre projet :
