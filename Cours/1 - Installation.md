@@ -84,7 +84,7 @@ Exécutez ensuite la commande suivante pour compiler vos styles :
 npm run build:css
 ```
 
-En cas de soucis de type 4cannot find module', vous pouvez réinstaller les dépendances :
+En cas de soucis de type 'Cannot find module xxx', vous pouvez réinstaller les dépendances :
 
 ```bash
 rm -rf node_modules
