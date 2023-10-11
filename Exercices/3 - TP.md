@@ -35,7 +35,7 @@ Ajoutez le contenu de la page de profil, y compris une image de profil, un nom, 
 
 ### 4. Utilisation de Tailwind CSS
 
-Utilisez des classes Tailwind CSS pour styliser votre contenu. Expérimentez avec différentes classes pour changer les couleurs, les marges, les tailles de texte, etc.
+Utilisez des classes Tailwind CSS pour styliser votre contenu. Expérimentez avec différentes classes pour changer les couleurs, les marges, les tailles de texte, etc. Vous pouvez utiliser des container, des colonnes, flexbox, grid, ...
 
 ### 5. Mise en forme de la page
 
@@ -46,6 +46,8 @@ Ajoutez des classes Tailwind CSS pour mettre en forme la page de profil. Assurez
 - Une mise en forme du texte du profil.
 - Une section pour les statistiques avec des icônes (vous pouvez utiliser des icônes gratuites comme Font Awesome).
 - Une séparation entre les sections de contenu.
+
+Testez un maximum de classes et de composants !
 
 ### 6. Style Responsif
 
