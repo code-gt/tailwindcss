@@ -47,10 +47,16 @@ Voici quelques-unes des classes les plus courantes que vous pouvez utiliser :
 
 ### **Tailles**
 
-- **`w-64`** : Définit une largeur de 64%.
-- **`h-32`** : Définit une hauteur de 32%.
-- **`w-[50px]`** : Définit une largeur de 50px.
-- **`h-[170px]`** : Définit une hauteur de 170px.
+- **`w-64`** : Définit une largeur de 16rem (taille fixe).
+- **`h-32`** : Définit une hauteur de 8rem (taille fixe).
+- **`w-[50px]`** : Définit une largeur de 50 pixels (taille personnalisée en pixels).
+- **`h-[170px]`** : Définit une hauteur de 170 pixels (taille personnalisée en pixels).
+- **`w-1/2`** : Définit une largeur de 50% (largeur proportionnelle).
+- **`w-1/4`** : Définit une largeur de 25% (largeur proportionnelle).
+- **`w-full`** : Définit une largeur de 100%.
+- **`w-[50%]`** : Définit une largeur de 50% (taille personnalisée en pourcentage).
+- **`w-[75vw]`** : Définit une largeur de 75% de la largeur de la fenêtre (viewport width).
+- **`h-[50vh]]`** : Définit une hauteur de 50% de la hauteur de la fenêtre (viewport height).
 
 ### **Flexibilité**
 
