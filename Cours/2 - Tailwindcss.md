@@ -68,6 +68,25 @@ Voici quelques-unes des classes les plus courantes que vous pouvez utiliser :
 - **`mx-4`** : Pour une marge à gauche ET à droite (x est l'axe des abscisses).
 - **`my-4`** : Pour une marge en haut et en bas (y est l'axe des ordonnées).
 
+### **Breakpoints de Tailwind CSS** (pour le responsive !)
+- **`sm (small) : ≥ 640px`** : Utilisé pour les écrans de petite taille, comme les smartphones.
+
+- **`md (medium) : ≥ 768px`** : Utilisé pour les écrans de taille moyenne, comme les tablettes.
+
+- **`lg (large) : ≥ 1024px`** : Utilisé pour les écrans de grande taille, comme les ordinateurs portables.
+
+- **`xl (extra-large) : ≥ 1280px`** : Utilisé pour les écrans très larges, comme les moniteurs de bureau.
+
+- **`2xl (double extra-large) : ≥ 1536px`** : Utilisé pour les écrans ultra-larges.
+
+#### **Utilisation des Breakpoints**
+Vous pouvez utiliser ces breakpoints pour appliquer des styles spécifiques à chaque taille d'écran. Par exemple :
+
+- **`sm:bg-red-500`** : Change le fond en rouge pour les écrans de petite taille et plus.
+- **`md:bg-blue-500`** : Change le fond en bleu pour les écrans de taille moyenne et plus.
+  
+Ces breakpoints permettent de créer des designs responsives adaptés à différents dispositifs !
+
 ## **Exemples Pratiques**
 
 ### **Créons une Boîte Colorée**
