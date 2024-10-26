@@ -47,8 +47,10 @@ Voici quelques-unes des classes les plus courantes que vous pouvez utiliser :
 
 ### **Tailles**
 
-- **`w-64`** : Définit une largeur de 64 pixels.
-- **`h-32`** : Définit une hauteur de 32 pixels.
+- **`w-64`** : Définit une largeur de 64%.
+- **`h-32`** : Définit une hauteur de 32%.
+- **`w-[50px]`** : Définit une largeur de 50px.
+- **`h-[170px]`** : Définit une hauteur de 170px.
 
 ### **Flexibilité**
 
