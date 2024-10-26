@@ -61,6 +61,12 @@ Voici quelques-unes des classes les plus courantes que vous pouvez utiliser :
 
 - **`m-4`** : Ajoute une marge de 1rem autour de l'élément.
 - **`p-6`** : Ajoute un espace de 1,5rem à l'intérieur de l'élément.
+- **`mt-4`** : Ajoute une marge top de 1rem autour de l'élément. On peut aussi ajouter t à p pour faire un padding top.
+- **`mb-4`** : Pour une marge bottom.
+- **`ms-4`** : Pour une marge à gauche (s pour start).
+- **`me-4`** : Pour une marge à droite (e pour end).
+- **`mx-4`** : Pour une marge à gauche ET à droite (x est l'axe des abscisses).
+- **`my-4`** : Pour une marge en haut et en bas (y est l'axe des ordonnées).
 
 ## **Exemples Pratiques**
 
